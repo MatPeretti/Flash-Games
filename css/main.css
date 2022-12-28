@@ -1,0 +1,32 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: white;
+}
+
+h2{
+    font-size: 3em;
+}
+
+h3{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+.game-links{
+    text-decoration: none;
+    margin: 0.2em;
+    color: yellow;
+    font-size: 1.3em;
+    
+}
+
+.game-links:hover{
+    font-size: 1.5em;
+}
+
+.game-links:active{
+    color: darkgoldenrod;
+}
