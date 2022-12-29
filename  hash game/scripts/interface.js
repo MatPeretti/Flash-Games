@@ -39,5 +39,7 @@ function updateSquares() {
         if (symbol != '') {
             square.innerHTML = `<div class='${symbol}'></div>`
         }
+        
     })
+
 }
