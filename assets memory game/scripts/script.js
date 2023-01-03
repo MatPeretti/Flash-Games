@@ -43,7 +43,7 @@ function createCardFace(face, card, element){
     if(face === front){
         let iconElement = document.createElement('img');
         iconElement.classList.add(icon);
-        iconElement.src = './assets/images/' + card.icon + '.png';
+        iconElement.src = './assets memory game/images/' + card.icon + '.png';
         cardElementFace.appendChild(iconElement);
     }else{
         cardElementFace.innerHTML = '&lt/&gt';

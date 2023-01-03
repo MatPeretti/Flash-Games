@@ -17,22 +17,17 @@ body{
 .title{
     color: white;
     position: absolute;
-    margin-bottom: 31em;
+    margin-bottom: 23em;
     text-transform: uppercase;
-}
-
-#gameBoard{
-    margin-top: 1em;
+    top: 0.6em;
 }
 
 .return{
     color: white;
     text-decoration: none;
     position: absolute;
-    left: 0;
-    top: 0;
-    margin-left: 20px;
-    margin-top: 20px;
+    top: 20px;
+    left: 15px;
     font-size: 0.65em;;
 }
 
@@ -104,4 +99,5 @@ button:hover{
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr 1fr/1fr 1fr 1fr 1fr;
     grid-gap: 1em;
+    margin-top: 25px;
 }
