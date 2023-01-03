@@ -1,3 +1,2 @@
 # Flash-Games
-# :zap: to be done... :zap:
-ola!
+# :books: Soon... :books:

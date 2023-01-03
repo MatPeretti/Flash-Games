@@ -39,7 +39,19 @@ function updateSquares() {
         if (symbol != '') {
             square.innerHTML = `<div class='${symbol}'></div>`
         }
-        
+    })
+}
+
+function clearSquares () {
+    
+    let squares = document.querySelectorAll(".block");
+    let final = document.getElementById('resultado');
+
+    squares.forEach((square) =>{
+        square.innerHTML = '';
     })
 
+    final.innerHTML = '';
 }
+
+ 

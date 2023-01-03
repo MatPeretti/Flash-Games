@@ -53,3 +53,10 @@ function isWin() {
     
     return false;
 }
+
+function restartGame () {
+    clearSquares();
+    playerTime = 0;
+    board = ['', '', '','', '', '','', '', ''];
+    gameOver = false;
+}

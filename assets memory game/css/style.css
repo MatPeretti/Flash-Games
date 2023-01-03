@@ -26,9 +26,9 @@ body{
     color: white;
     text-decoration: none;
     position: absolute;
-    top: 20px;
-    left: 15px;
-    font-size: 0.65em;;
+    top: 10px;
+    left: 5px;
+    font-size: 0.7em;;
 }
 
 .card{
@@ -86,7 +86,7 @@ button{
     background-color: yellow;
     padding: 10px;
     border-radius: 20px;
-    font-family: 'Chivo Mono', monospace;
+    font-family: Seymour One, monospace;
     font-size: 15px;
 }
 
