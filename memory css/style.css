@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Seymour One, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    background-color: #000000;  
+
+}
+
+.title{
+    color: white;
+    position: absolute;
+    margin-bottom: 31em;
+    text-transform: uppercase;
+}
+
+#gameBoard{
+    margin-top: 1em;
+}
+
+.return{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 0.65em;;
+}
+
+.card{
+    width: 125px;
+    height: 125px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+
+.card_front, .card_back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    backface-visibility: hidden;
+}
+
+.flip{
+    transform: rotateY(180deg);
+}
+
+.card_front{
+    transform: rotateY(180deg);
+    background-color: #152b47;
+}
+
+.card_back{
+    color: #101c2c;
+    background-color: #05c3ff;
+    font-size: 25px;
+}
+
+/*--GameOver Screen Style*/
+#gameOver{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    width: 100%;
+    height: 110vh;
+    font-size: 1.5em;
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+
+button{
+    margin-left: 1em;
+    border-style: none;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Chivo Mono', monospace;
+    font-size: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#gameBoard{
+    max-width: 700px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr/1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
