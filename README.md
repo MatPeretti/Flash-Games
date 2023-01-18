@@ -1,2 +1,4 @@
 # Flash-Games
-# :books: Soon... :books:
+- Welcome to Flash Games! a section with mini-games creted with JavaScript
+
+
