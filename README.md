@@ -17,7 +17,7 @@ The Memory Game is a classic card-matching game. The cards are laid face down, a
 - Two classic and interactive games.
 - Simple and intuitive user interface.
 
-# Dependencies
+# Technologies Used
 - HTML5
 - CSS3
 - JavaScript
